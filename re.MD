@@ -80,4 +80,40 @@ For more details, see `docs/requirements.md`.
 ---
 
 ## 📂 Repository Structure
+data-warehouse-project/
+├── datasets/ # Raw ERP and CRM datasets
+├── docs/ # Documentation and architecture diagrams
+│ ├── etl.drawio
+│ ├── data_architecture.drawio
+│ ├── data_catalog.md
+│ ├── data_flow.drawio
+│ ├── data_models.drawio
+│ ├── naming-conventions.md
+├── scripts/ # SQL scripts for ETL and transformations
+│ ├── bronze/
+│ ├── silver/
+│ ├── gold/
+├── tests/ # Test scripts and quality checks
+├── README.md # Project overview and instructions
+├── LICENSE # License information
+├── .gitignore # Git ignore file
+└── requirements.txt # Project dependencies
+
+---
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+---
+
+## 🌟 About the Author
+
+Hi! I’m **[Your Name]**.  
+This project was completed as a guided learning journey, following along with Baraa Khatib Salkini’s excellent YouTube series and resources. The original project and instructional materials were created by **Baraa Khatib Salkini** (Data With Baraa).  
+Reference: Project guided by Baraa Khatib Salkini’s YouTube video and repository.
+
+---
+
+**Special thanks to Baraa for sharing his expertise and making data engineering accessible!**
 
